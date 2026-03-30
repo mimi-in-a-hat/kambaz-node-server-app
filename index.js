@@ -6,6 +6,8 @@ import session from "express-session";
 import db from "./kambaz/database/index.js";
 import UserRoutes from "./kambaz/users/routes.js";
 import CourseRoutes from "./kambaz/courses/routes.js";
+import AssignmentRoutes from "./kambaz/assignments/routes.js";
+import EnrollmentRoutes from "./kambaz/enrollments/routes.js";
 import "dotenv/config";
 
 const app = express();
@@ -33,6 +35,8 @@ app.use(session(sessionOptions));
 app.use(express.json());
 UserRoutes(app, db);
 CourseRoutes(app, db);
+AssignmentRoutes(app, db);
+EnrollmentRoutes(app, db);
 Hello(app)
 Lab5(app)
 app.listen(process.env.PORT || 4000)
