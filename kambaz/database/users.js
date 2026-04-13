@@ -1,0 +1,122 @@
+export default [
+  {
+    "_id": "123",
+    "firstName": "Tony",
+    "lastName": "Stark",
+    "username": "tstark",
+    "password": "password123",
+    "loginId": "001234561S",
+    "section": "S101",
+    "role": "STUDENT",
+    "lastActivity": "2025-02-10",
+    "totalActivity": "10:21:32"
+  },
+  {
+    "_id": "234",
+    "firstName": "Bruce",
+    "lastName": "Wayne",
+    "username": "bwayne",
+    "password": "password123",
+    "loginId": "001234562S",
+    "section": "S101",
+    "role": "STUDENT",
+    "lastActivity": "2025-02-09",
+    "totalActivity": "08:45:10"
+  },
+  {
+    "_id": "345",
+    "firstName": "Steve",
+    "lastName": "Rogers",
+    "username": "srogers",
+    "password": "password123",
+    "loginId": "001234563S",
+    "section": "S101",
+    "role": "STUDENT",
+    "lastActivity": "2025-02-08",
+    "totalActivity": "12:02:44"
+  },
+  {
+    "_id": "456",
+    "firstName": "Natasha",
+    "lastName": "Romanoff",
+    "username": "nromanoff",
+    "password": "password123",
+    "loginId": "001234564S",
+    "section": "S101",
+    "role": "STUDENT",
+    "lastActivity": "2025-02-07",
+    "totalActivity": "09:17:55"
+  },
+  {
+    "_id": "567",
+    "firstName": "Thor",
+    "lastName": "Odinson",
+    "username": "thor",
+    "password": "password123",
+    "loginId": "001234565S",
+    "section": "S102",
+    "role": "STUDENT",
+    "lastActivity": "2025-02-06",
+    "totalActivity": "15:33:22"
+  },
+  {
+    "_id": "789",
+    "firstName": "Peter",
+    "lastName": "Parker",
+    "username": "pparker",
+    "password": "password123",
+    "loginId": "001234566S",
+    "section": "S102",
+    "role": "STUDENT",
+    "lastActivity": "2025-02-05",
+    "totalActivity": "11:44:18"
+  },
+  {
+    "_id": "890",
+    "firstName": "Black",
+    "lastName": "Panther",
+    "username": "bpanther",
+    "password": "password123",
+    "loginId": "001234567S",
+    "section": "S102",
+    "role": "STUDENT",
+    "lastActivity": "2025-02-04",
+    "totalActivity": "08:12:05"
+  },
+  {
+    "_id": "901",
+    "firstName": "Stephen",
+    "lastName": "Strange",
+    "username": "sstrange",
+    "password": "password123",
+    "loginId": "001234568F",
+    "section": "S101",
+    "role": "FACULTY",
+    "lastActivity": "2025-02-11",
+    "totalActivity": "22:15:00"
+  },
+  {
+    "_id": "912",
+    "firstName": "Wanda",
+    "lastName": "Maximoff",
+    "username": "wmaximoff",
+    "password": "password123",
+    "loginId": "001234569TA",
+    "section": "S101",
+    "role": "TEACHING ASSISTANT",
+    "lastActivity": "2025-02-10",
+    "totalActivity": "18:45:30"
+  },
+  {
+    "_id": "1023",
+    "firstName": "Nick",
+    "lastName": "Fury",
+    "username": "nfury",
+    "password": "password123",
+    "loginId": "001234570F",
+    "section": "S102",
+    "role": "FACULTY",
+    "lastActivity": "2025-02-11",
+    "totalActivity": "20:30:15"
+  }
+]
