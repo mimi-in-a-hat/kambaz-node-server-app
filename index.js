@@ -12,9 +12,6 @@ import "dotenv/config";
 import mongoose from "mongoose";
 
 const CONNECTION_STRING = process.env.DATABASE_CONNECTION_STRING || "mongodb://127.0.0.1:27017/kambaz"
-mongoose.connect(CONNECTION_STRING);
-
-
 const app = express();
 app.use(
   cors({
@@ -44,4 +41,17 @@ AssignmentRoutes(app, db);
 EnrollmentRoutes(app, db);
 Hello(app)
 Lab5(app)
-app.listen(process.env.PORT || 4000)
+
+const startServer = async () => {
+  try {
+    await mongoose.connect(CONNECTION_STRING);
+    app.listen(process.env.PORT || 4000);
+  } catch (error) {
+    console.error("MongoDB connection failed.");
+    console.error("Check DATABASE_CONNECTION_STRING in Render for the correct Atlas username, password, database name, and URL encoding.");
+    console.error(error);
+    process.exit(1);
+  }
+};
+
+startServer();
